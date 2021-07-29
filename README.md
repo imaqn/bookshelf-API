@@ -46,6 +46,6 @@ API to create, read, update and delete books data in an array. Created to comple
     "reading": boolean
 }`
 
-#### to get a book
+#### to delete a book
 - method: DELETE
 - path: /books/{bookId}
