@@ -25,8 +25,8 @@ API to create, read, update and delete books data in an array. Created to comple
 - method: GET
 - path: /books
 - add query ?reading with 0 or 1 value to get books by reading status
-- add query ?finish with 0 or 1 value to get books by finish status
-- add query ?name with 'name' value to get books contains 'name'
+- add query ?finished with 0 or 1 value to get books by finish status
+- add query ?name with "name" value to get books contains "name"
 
 #### to get a book by its ID
 - method: GET
