@@ -8,9 +8,9 @@ API to create, read, update and delete books data in an array. Created to comple
 
 ## How to use
 #### to add a book
-method: POST
-path: /books
-body: {
+- method: POST
+- path: /books
+- body: `{
     "name": string,
     "year": number,
     "author": string,
@@ -19,7 +19,7 @@ body: {
     "pageCount": number,
     "readPage": number,
     "reading": boolean
-}
+}`
 
 #### to show all books
 method: GET
