@@ -22,20 +22,20 @@ API to create, read, update and delete books data in an array. Created to comple
 }`
 
 #### to show all books
-method: GET
-path: /books
-// add query ?reading with 0 or 1 value to get books by reading status
-// add query ?finish with 0 or 1 value to get books by finish status
-// add query ?name with 'name' value to get books contains 'name'
+- method: GET
+- path: /books
+- add query ?reading with 0 or 1 value to get books by reading status
+- add query ?finish with 0 or 1 value to get books by finish status
+- add query ?name with 'name' value to get books contains 'name'
 
 #### to get a book by its ID
-method: GET
-path: /books/{bookId}
+- method: GET
+- path: /books/{bookId}
 
 #### to update a book
-method: PUT
-path: /books/{bookId}
-body: {
+- method: PUT
+- path: /books/{bookId}
+- body: `{
     "name": string,
     "year": number,
     "author": string,
@@ -44,8 +44,8 @@ body: {
     "pageCount": number,
     "readPage": number,
     "reading": boolean
-}
+}`
 
 #### to get a book
-method: DELETE
-path: /books/{bookId}
+- method: DELETE
+- path: /books/{bookId}
